@@ -1,6 +1,6 @@
 local tester = require "util.tester"
 
-package.path = "../?.lua;" .. package.path
+package.path = "../lua/?.lua;" .. package.path
 
 local lume = require "lume"
 
